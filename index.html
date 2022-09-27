@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="dist/main.js" defer></script>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        button {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            text-align: center;
+            background-image: linear-gradient(#000000,#024b48);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row p-4">
+            <div class="col-12"><h1 id="output">EREDMÉNY</h1></div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col-3"><button class="btn btn-dark p-4" id="back">⇦</button></div>
+            <div class="col-6"><button class="btn btn-dark p-4" id="ac">AC</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="div">/</button></div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col-3"><button class="btn btn-dark p-4" id="7">7</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="8">8</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="9">9</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="szor">×</button></div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col-3"><button class="btn btn-dark p-4" id="4">4</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="5">5</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="6">6</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="min">-</button></div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col-3"><button class="btn btn-dark p-4" id="1">1</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="2">2</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="3">3</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="plus">+</button></div>
+        </div>
+
+        <div class="row m-4">
+            <div class="col-3"><button class="btn btn-dark p-4" id="fl">,</button></div>
+            <div class="col-6"><button class="btn btn-dark p-4" id="0">0</button></div>
+            <div class="col-3"><button class="btn btn-dark p-4" id="eq">=</button></div>
+        </div>
+    </div>
+    
+</body>
+</html>
